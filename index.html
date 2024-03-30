@@ -6,9 +6,107 @@
     <title>GAME</title>
 </head>
 <body>
+    <div class="score">
+        <div>SCOREBOARD</div>
+        <div class="count">
+        <div>Player</div>
+        <div >Computer</div>
+        
+    </div>
+    </div>
     <h1>Rock Paper Scissors</h1>
+
+    
+    <div class="container">
+    <button id="Rock">Rock</button>
+    <button id="Paper">Paper</button>
+    <button id="Scissors">Scissors</button>
+    </div>
+    <div id="Result"></div>
+   
+    </div>
+
+
+
+
 </body>
-<script src="javascript.js"></script>
+<style>
+    
+
+    .container{
+        display:flex;
+        justify-content: space-around;
+        margin-top:30px ;
+        margin-left: 450px;
+        margin-right: 450px;
+        border-radius: 30px;
+        border:10px solid #40A2D8;
+        padding:50px;
+        align-items: flex-start;
+        background-color:#000036;
+        margin-bottom: 30px;
+    }
+    h1{
+        text-align: center;
+        margin-top: 100px;
+        font-size: 50px;
+        color: lightblue;
+        
+    }
+    .score{
+       
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom:4px;
+        margin-left: 450px;
+        margin-right: 450px;
+        color:#003153; 
+        font-size:22px; 
+        font-weight:bold; 
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:#94e5ff; 
+        padding:20px;
+        border-radius:50px;
+
+    }
+    .count{
+        display: flex;
+        flex-flow:row wrap;
+        gap:100px;
+        font-size: 23px;
+        justify-content: center;
+
+    }
+    button{
+        width:150px;
+        background-color:#40A2D8;
+        border:2px solid white;
+        border-radius:20px;
+        padding: 5px;
+        font-size:20px;
+        cursor:pointer;
+        color:#000036 ;
+        font-weight: 500
+    }
+    body{
+        background-color: black;
+        
+       
+    }
+    button:hover {
+        box-shadow: 0px 0px 10px 4px #4682b4  ;
+    }
+    
+
+
+</style>
+
+<head>
+    <script src="javascript.js" defer></script>
+</head>
 
 
 </html>
