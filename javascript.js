@@ -43,7 +43,7 @@ function round(playerSelection, computerSelection){
     };
    
     res.setAttribute("style", "color:#003153; font-size:22px; font-weight:bold; display:flex ; flex-flow:column wrap; align-items:center; background-color:#94e5ff; margin:0px 700px; border-radius:50px");
- 
+    res.appendChild(text);
     counter.textContent = '';
     counter.textContent= `Player: ${playerCount}               |              Computer: ${computerCount}`;
    
